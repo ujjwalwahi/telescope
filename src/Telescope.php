@@ -78,10 +78,7 @@ class Telescope
      *
      * @var array
      */
-    public static $hiddenRequestHeaders = [
-        'authorization',
-        'php-auth-pw',
-    ];
+    public static $hiddenRequestHeaders = [];
 
     /**
      * The list of hidden request parameters.
